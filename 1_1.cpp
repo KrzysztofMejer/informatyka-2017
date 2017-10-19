@@ -12,8 +12,7 @@ int main()
     if(a!=0){
     x=-b/a;
     cout<<"x wynosi: "<<x<<endl;
-    }else{
-        if (b==0) {
+    }else if (b==0){
             cout<<"Nieskonczenie wiele rozwiazan"<<endl;
         }else{
             cout<<"Rownanie jest sprzeczne"<<endl;
