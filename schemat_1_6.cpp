@@ -24,7 +24,8 @@ int main() {
             cout<<"x2 wynosi: "<<x2<<endl;
             }
             return 0;
-} }
+} 
+  }
   }
 
 
