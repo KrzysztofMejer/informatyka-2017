@@ -35,5 +35,5 @@ int main()
 
 // funkcja losujaca liczby str.225 w pozdr
 // zad.dom - zad 1_18 + specyfikacja i schemat blokowy w zeszcyie do zadan 1_14,1_15,1_16,1_17
-// za tydzieñ kartkówka z kodu
+// za tydzien kartkówka z kodu
 
