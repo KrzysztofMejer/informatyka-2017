@@ -9,8 +9,10 @@ using namespace std;
 int main()
 {
     double x,y;
+    p=-5;
+    q=10;
     srand(time(NULL));
-    x = -5 + rand()%(10--5+1);
+    x = 1 + rand()%(p-q+1);
 
     if (x<7) {
         y=pow(x,3)+1;
