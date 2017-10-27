@@ -9,8 +9,8 @@ using namespace std;
 int main()
 {
     double x,y;
-    srand( time( NULL ) );
-    x= rand() % 12 + -5;
+    srand(time(NULL));
+    x = -5 + rand()%(10--5+1);
 
     if (x<7) {
         y=pow(x,3)+1;
