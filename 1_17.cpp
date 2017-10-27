@@ -12,7 +12,7 @@ int main()
     p=-5;
     q=10;
     srand(time(NULL));
-    x = 1 + rand()%(p-q+1);
+    x = p + rand()%(p-q+1);
 
     if (x<7) {
         y=pow(x,3)+1;
