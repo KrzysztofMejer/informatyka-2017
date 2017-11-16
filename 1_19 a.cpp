@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <ctime>
-#include <windows.h>
-#include <iomanip>
+
 using namespace std;
 
 int main()
