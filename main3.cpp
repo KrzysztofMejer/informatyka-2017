@@ -2,9 +2,9 @@
 
 using namespace std;
 
-//dzia³¹nie funkcji na wskaŸnikach
-// powoduje to bezpoœrednie dzia³¹nie na pamiêci -> wartosc zmiennej pozostaje zawsze taka sama jak wynik dzia³ania funkcji
-//(poniewa¿ odnosimy siê BEZPOŒREDNIO do pamiêci)
+//dziaÅ‚anie funkcji na wskaÅºnikach
+// powoduje to bezpoÅ›rednie dziaÅ‚Ä…nie na pamiÄ™ci -> wartosc zmiennej pozostaje zawsze taka sama jak wynik dziaÅ‚ania funkcji
+//(poniewaÅ¼ odnosimy siÄ™ BEZPOÅšREDNIO do pamiÄ™ci)
 
 void f (int*n) {
     *n = *n * 10;
