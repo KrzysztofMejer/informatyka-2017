@@ -11,10 +11,10 @@ int main()
     cout << endl;
 
     for (int i = 1; i <= h-1; i++) {
-    for (int k = 1 ; k <= h-i-1 ; k++) {
+    for (int x = 1 ; x <= h-i-1 ; x++) {
     cout << " ";
     }
-    for (int j = 1; j <= 2*i-1 ; j++) {
+    for (int y = 1; y <= 2*i-1 ; y++) {
     cout << "*";
     }
     cout << endl;
@@ -25,5 +25,4 @@ int main()
     }
     cout << "#";
 }
-
 
