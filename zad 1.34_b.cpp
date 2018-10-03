@@ -15,6 +15,11 @@ int main () {
 
     cout<<"Podaj wyraz ciagu"<<endl;
     cin>>x;
-    cout<<""<<x<<" wyraz ciagu wynosi : "<<ciag(x);
+    cout<<""<<x<<" wyraz ciagu wynosi : "<<ciag(x)<<endl;
 
+/* wypisywanie wszytkiego
+    for (int i=1;i<=x;i++)
+        cout<<"ciag("<<i<<")="<<ciag(i)<<endl;
+    return 0;
+    */
 }
